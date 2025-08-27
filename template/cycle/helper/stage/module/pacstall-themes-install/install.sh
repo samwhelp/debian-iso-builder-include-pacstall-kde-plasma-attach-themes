@@ -215,15 +215,24 @@ sys_pacstall_install_packages () {
 local run_cmd=$(cat << __EOF__
 	pacstall -QPINs
 		bean-resource-kde-plasma-layout-templates
+		bean-resource-kde-plasma-layout-switch
+		bean-resource-kde-plasma-style-switch
+		bean-resource-kde-plasma-keybind-switch
+
 
 		bean-appearance-citrus-icon-theme
+		bean-appearance-greystone-icon-theme
+
+
 		bean-appearance-vimix-gtk-theme
 		bean-appearance-vimix-kde-theme
 
-		bean-appearance-greystone-icon-theme
+
+		bean-appearance-graphite-kde-theme
+		bean-appearance-graphite-gtk-theme
+
 
 		bean-appearance-orchis-kde-theme
-		bean-appearance-graphite-kde-theme
 		bean-appearance-fluent-kde-theme
 		bean-appearance-colloid-kde-theme
 		bean-appearance-layan-kde-theme
